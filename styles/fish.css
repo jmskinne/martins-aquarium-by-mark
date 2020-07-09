@@ -4,5 +4,15 @@
 
 
 .fishes {
-    border: 3px dotted dodgerblue;
+    margin-bottom:1rem;
+}
+
+.fish {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.25rem;
+    display:flex;
+}
+
+.fish__container-info {
+    padding:3rem;
 }

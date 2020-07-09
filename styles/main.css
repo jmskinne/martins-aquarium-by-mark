@@ -6,15 +6,36 @@
 
 #container {
     display:flex;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 6%, rgba(67,145,199,1) 97%);
 }
 
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
 
+.logo-container {
+    flex:2;
+    margin-left: 4rem;
+}
 .siteLogo {
     height: 10rem;
+      
+}
+
+.siteTitle {
+    flex-basis: 78%;
+    font-size: 4rem;
+    font-stretch: expanded;
 }
 
 .header {
     display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(67,145,199);
+    background: linear-gradient(90deg, rgba(67,145,199,1) 11%, rgba(35,86,187,1) 99%);
+    margin-bottom:1rem;
 }
 
 .card--image {
@@ -22,16 +43,23 @@
 }
 
 .card {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.25rem;
     padding: 2rem;
+    border: 1px black solid
+
 }
 
 .container-left {
     margin-right: 4rem;
     flex: 3;
+    flex-wrap: wrap;
 }
 
 .container-right {
     margin-right: 4rem;
     flex: 1;
+    flex-direction: column;
+    flex-basis:20%;
 }
 

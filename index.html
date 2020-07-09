@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martin's Aquarium</title>
     <link href="styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Questrial&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header class="header">
-        <img class="siteLogo" src="./pictures/logo.png" alt="">
+        <div class="logo-container">
+            <img class="siteLogo" src="./pictures/logo.png" alt="">
+        </div>
         <h1 class="siteTitle">Martin's Fish Emporium</h1>
     </header>
     <main id="container">
@@ -16,19 +20,33 @@
             <article class="fishes">
                 <section class="fish card">
                     <div><img class="card--image fish__image" src="./pictures/bluetang.jpg"></div>
-                    <div class="fish__name">Dory </div>
-                    <div class="fish__species">Blue Tang</div>
-                    <div class="fish__length">4 inches</div>
-                    <div class="fish__location">Great Barrier Reef</div>
-                    <div class="fish__diet">Plankton</div>
+                        <div class="fish__container-info">
+                            <div class="fish__name"> <b>Name:</b>  Dory </div>
+                            <div class="fish__species"><b>Type:</b> Blue Tang</div>
+                            <div class="fish__length"><b>Size:</b> 4 inches</div>
+                            <div class="fish__location"><b>Location:</b> Great Barrier Reef</div>
+                            <div class="fish__diet"><b>Food:</b> Plankton</div>
+                        </div>
                 </section>
                 <section class="fish card">
                     <div><img class="card--image fish__image" src="./pictures/jaws.jpg"></div>
-                    <div class="fish__name">Bruce </div>
-                    <div class="fish__species">Great White</div>
-                    <div class="fish__length">25 feet</div>
-                    <div class="fish__location">Amity Island</div>
-                    <div class="fish__diet">skiers</div>
+                            <div class="fish__container-info">
+                                <div class="fish__name">Bruce </div>
+                                <div class="fish__species">Great White</div>
+                                <div class="fish__length">25 feet</div>
+                                <div class="fish__location">Amity Island</div>
+                                <div class="fish__diet">skiers</div>
+                            </div>
+                </section>
+                <section class="fish card">
+                    <div><img class="card--image fish__image" src="./pictures/flounder.jpg"></div>
+                        <div class="fish__container-info">
+                            <div class="fish__name">Flounder </div>
+                            <div class="fish__species">Flounder</div>
+                            <div class="fish__length">1 foot</div>
+                            <div class="fish__location">Under the Sea</div>
+                            <div class="fish__diet">Algae</div>
+                        </div>
                 </section>
             </article>
             <article class="quotes">
@@ -45,9 +63,14 @@
             <article class="locations">
                 <section class="location card">
                     <div class="location__image"><img class="card--image" src="./pictures/great-barrier.jpg"></div>
-                    <div class="location__name">Great Barrier Reef</div>
-                    <div class="location__url">https://greatbarrierreef.org/</div>
-                    <div class="location__desc">One of Australia’s most remarkable natural gifts, the Great Barrier Reef is blessed with the breathtaking beauty of the world’s largest coral reef. The reef contains an abundance of marine life and comprises of over 3000 individual reef systems and coral cays and literally hundreds of picturesque tropical islands with some of the worlds most beautiful sun-soaked, golden beaches.</div>
+                            <div class="location__name">Great Barrier Reef</div>
+                            <div class="location__url">https://greatbarrierreef.org/</div>
+                            <div class="location__desc">One of Australia’s most remarkable natural gifts, the Great 
+                                Barrier Reef is blessed with the breathtaking beauty of the world’s largest coral reef. 
+                                The reef contains an abundance of marine life and comprises of over 3000 individual reef 
+                                systems and coral cays and literally hundreds of picturesque tropical islands with some of 
+                                the worlds most beautiful sun-soaked, golden beaches.</div>
+                        
                 </section>
                 <section class="location card">
                     <div class="location__image"><img class="card--image" src="./pictures/amityisland.jpg"></div>
@@ -55,12 +78,36 @@
                     <div class="location__url">https://jaws.fandom.com/wiki/Amity_Island</div>
                     <div class="location__desc">Amity Island is a fictional island located off the coast of New England, and is the main setting of the Jaws franchise. The island is known for its clean air, beautiful white sand beaches, and many of its local fishermen. The island is also infamous for its series of horrifying and fatal shark attacks.</div>
                 </section>
+                <section class="location card">
+                    <div class="location__image"><img class="card--image" src="./pictures/underthesea.jpg"></div>
+                    <div class="location__name">Under the Sea</div>
+                    <div class="location__url">https://en.wikipedia.org/wiki/Under_the_Sea</div>
+                    <div class="location__desc">The Little Mermaid is a 1989 American animated musical romantic fantasy film produced by Walt Disney Feature Animation and Walt Disney Pictures. The 28th Disney animated feature film and the first film in The Little Mermaid trilogy and the second in the chronology of the story running through the series, it is loosely based on the 1837 Danish fairy tale of the same name by Hans Christian Andersen.</div>
+                </section>
             </article>
 
         </div>
         <div class="container-right">
             <aside class="tips">
-                <section class="tip">This is where your Aquarium tips will go.</section>
+                <section class="tip card">This is where your Aquarium tips will go.</section>
+                <section class="tip card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut blandit felis. Etiam et vulputate 
+                    ligula, non tincidunt lorem. Morbi nunc felis, tempus vitae ullamcorper vel, feugiat id neque. Integer augue 
+                    dolor, volutpat ut accumsan eu, vulputate quis eros. Proin at turpis et ante gravida varius. 
+                    Duis lectus ex, pharetra non felis aliquet, interdum tincidunt eros. Vestibulum gravida ultrices ante at viverra. 
+                    Phasellus at ante at est cursus dictum. Sed luctus, diam vitae aliquam pretium, nulla leo scelerisque ex, nec 
+                    volutpat diam turpis ut nibh. Nullam faucibus nulla sed augue pharetra vulputate. Sed magna est, facilisis 
+                    eu auctor a, sodales tempor felis. Aliquam commodo at mauris nec malesuada. Nulla vitae dui tempus, semper purus 
+                    in, tristique ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                    Sed tincidunt finibus elit, nec semper magna vulputate vel.
+                </section>
+                <section class="tip card">Etiam ut viverra est. Duis eu eleifend mi. Nullam lobortis fermentum consequat. Aenean imperdiet 
+                    feugiat ante a vestibulum. Nullam vel interdum ante, a molestie urna. Duis aliquam erat urna, nec 
+                    rutrum tortor placerat pharetra. Mauris mattis nisi sit amet lobortis ornare. Praesent eget purus non urna 
+                    viverra scelerisque vel ac felis. Nulla ullamcorper, diam consectetur sagittis accumsan, justo ex auctor eros, 
+                    sit amet elementum libero lectus in sapien. Fusce porta quam sed nisi bibendum, sed tincidunt lacus dignissim. 
+                    Nunc nec odio in erat tincidunt posuere ac eu leo. Integer eget tellus sed sapien malesuada tincidunt nec ac eros. 
+                    Fusce condimentum non tellus non tempor. Curabitur in tellus nulla.
+                </section>
             </aside>
         </div>
     </main>
