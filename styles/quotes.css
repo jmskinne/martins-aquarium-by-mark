@@ -1,5 +1,10 @@
 .quotes {
-    
-    margin-bottom:1rem;
+    /*background: rgb(217,216,33);
+    background: linear-gradient(90deg, rgba(217,216,33,1) 25%, rgba(41,135,163,1) 98%); */
+    margin-bottom:1rem; 
 
+}
+
+.quote__text {
+    font-size:2rem;
 }

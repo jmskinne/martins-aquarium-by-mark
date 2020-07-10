@@ -1,8 +1,8 @@
 .tips {
     display:flex;
-    background: rgb(33,217,48);
-    background: linear-gradient(90deg, rgba(33,217,48,1) 25%, rgba(41,163,117,1) 98%);
-    flex-direction: column;
+    /* background: rgb(33,217,48);
+    background: linear-gradient(90deg, rgba(33,217,48,1) 25%, rgba(41,163,117,1) 98%); */
+    flex-direction: column; 
 }
 
 .tip {
