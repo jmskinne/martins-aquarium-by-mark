@@ -8,14 +8,9 @@ export const FishList = () => {
 
     const fishes = useFish()
 
-    let fishHTMLRepresentation = ""
-    for(const currentFishObj of fishes) {
-        fishHTMLRepresentation += Fish(currentFishObj)
-    }
-
     contentElement.innerHTML += `
         <article class="fishes">
-            ${fishHTMLRepresentation}
+            ${fishes.map(fish => Fish(fish))}
         </article>
 
     `
